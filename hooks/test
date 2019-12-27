@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+############
+# hooks/test
+############
+
+echo "**************************"
+echo "*** Build hook running"
+echo "**************************"
+
+echo
+echo "*** check etcdctl version"
+echo
+
+if [[ `docker run index.docker.io/lwieske/etcdctl:${DOCKER_TAG} version | head -1` == "etcdctl version: ${DOCKER_TAG:1}" ]]; then
+    echo "OK!"
+    exit 0;
+else
+    echo "FAILED!"
+    exit 1;
+fi
