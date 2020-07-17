@@ -1,4 +1,4 @@
-# Dockerfiles for etcdctl / v3.4.0 - v3.4.9
+# Dockerfiles for etcdctl / v3.4.0 - v3.4.10
 
 [![](https://images.microbadger.com/badges/image/lwieske/etcdctl.svg)](https://microbadger.com/images/lwieske/etcdctl "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/lwieske/etcdctl.svg)](https://microbadger.com/images/lwieske/etcdctl "Get your own version badge on microbadger.com")
@@ -11,6 +11,12 @@ docker run -i -t lwieske/etcdctl
 ```
 
 ***
+
+### v3.4.10
+
+| Image | Badge |
+| ----- | ----- |
+| lwieske/etcdctl:v3.4.10 | [![](https://images.microbadger.com/badges/image/lwieske/etcdctl:v3.4.10.svg)](https://microbadger.com/images/lwieske/etcdctl:v3.4.10 "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/lwieske/etcdctl:v3.4.10.svg)](https://microbadger.com/images/lwieske/etcdctl:v3.4.10 "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/commit/lwieske/etcdctl:v3.4.10.svg)](https://microbadger.com/images/lwieske/etcdctl:v3.4.10 "Get your own commit badge on microbadger.com") |
 
 ### v3.4.9
 
